@@ -23,6 +23,15 @@ h3 {
     text-align: center;
     text-transform: none;
     letter-spacing: 0.01em;
+    background: #ffffff;
+    padding: 10px 30px;
+    width: 600px;
+    margin:20px auto;
+
+    border-radius: 5px;
+    
+   
+
 
 }
 
@@ -53,11 +62,23 @@ input::-webkit-color-swatch {
     outline: none;
     border:none;
     transition: .2s;
+    animation: radius 2s;
+    animation-iteration-count: infinite;
+    font-weight: bolder;
+     
 }
 
+
+@keyframes radius {
+    0% { border-radius: 20px;}
+    50% { border-radius:  5px;}
+    75% { border-radius: 70px;}
+    100% { border-radius: 20px;}
+}
 #random:active {
     transform: scale(.9);
 }
+
 
 
 

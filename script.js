@@ -44,6 +44,7 @@ function randomColor() {
 }
 
 randomBtn.addEventListener("click", randomColor);
+
 randomBtn.addEventListener("click", function() {
   
   randomBtn.style.padding = "1rem 2rem";
