@@ -1,3 +1,9 @@
+ * {
+     padding: none;
+     margin: none;
+
+ }
+
 body {
 	font: 'Raleway', sans-serif;
     color: rgba(0,0,0,.5);
@@ -5,9 +11,21 @@ body {
     text-transform: uppercase;
     letter-spacing: .5em;
     top: 15%;
-	background: linear-gradient(to right, #111111 , #ffffff); /* Standard syntax */
+    background: linear-gradient(to right, #111111 , #ffffff); /* Standard syntax */
+    height: 100vh;
+    overflow: hidden;
+    
 }
 
+
+#gradient {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     
+    
+}
 h1 {
     font: 600 3.5em 'Raleway', sans-serif;
     color: rgba(0,0,0,.5);
@@ -34,6 +52,8 @@ h3 {
 
 
 }
+
+ 
 
 input {
     
